@@ -1,6 +1,7 @@
-# Movi - Intelligent Transport Management Assistant
+# Movi - The Multimodal Transport Agent
 
-Movi is an AI-powered transport management system that provides intelligent assistance for route management, trip scheduling, and vehicle assignments. The system features a multimodal conversational interface (text, voice, and image) built with LangGraph for stateful agent workflows and Human-in-the-Loop (HITL) confirmation patterns.
+Movi is an AI-powered transport management system that provides intelligent assistance for route management, trip scheduling, and vehicle assignments. It offers context-aware support for managing routes, scheduling trips, and assigning vehicles and drivers — all through a rich multimodal interface that supports text, voice, and image inputs.
+At its core, Movi is a LangGraph-powered multi-agent system that orchestrates complex workflows using conditional logic, Human-in-the-Loop (HITL) confirmations, and real-time database interactions. It understands the layered operational model of the MoveInSync Shuttle — from static asset creation (Stops → Paths → Routes) to dynamic daily operations (Trips, Deployments, Trip Sheets) — and helps transport managers navigate this complexity with ease.
 
 ## 📋 Table of Contents
 
@@ -297,4 +298,5 @@ MIT License
 
 
 **Built with using LangGraph and React**
+
 
