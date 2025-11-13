@@ -1,0 +1,11 @@
+flask
+flask-cors
+openai-whisper
+langchain
+langchain-core
+langgraph
+langchain-google-genai
+pyttsx3
+gtts
+python-dotenv
+pydantic
