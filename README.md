@@ -224,41 +224,6 @@ The complete workflow is visualized in `movi/movi_graph.png`:
 2. **Frontend**: Open `http://localhost:5173` - should show the Movi dashboard
 3. **Movi Chat**: Click the chat icon and send a test message like "How many vehicles are there?"
 
-## 📁 Project Structure
-
-```
-.
-├── app.py                      # Flask backend server
-├── requirements.txt            # Python dependencies
-├── moveinsync.db              # SQLite database
-├── .env                       # Environment variables (create this)
-│
-├── movi/                      # LangGraph agent module
-│   ├── __init__.py
-│   ├── chat.py                # Main agent graph definition
-│   ├── asr.py                 # Audio transcription (Whisper)
-│   ├── tts.py                 # Text-to-speech (gTTS)
-│   └── movi_graph.png         # Graph visualization
-│
-└── frontend/                  # React frontend
-    ├── package.json
-    ├── vite.config.ts
-    ├── src/
-    │   ├── main.tsx           # Entry point
-    │   ├── App.tsx            # Main app component
-    │   ├── components/
-    │   │   ├── Movi/
-    │   │   │   ├── MoviChat.tsx      # Chat interface
-    │   │   │   └── MoviResponse.tsx  # Response display
-    │   │   └── ui/            # shadcn/ui components
-    │   ├── pages/
-    │   │   ├── BusDashboard.tsx
-    │   │   ├── ManageRoute.tsx
-    │   │   └── Home.tsx
-    │   └── lib/
-    │       └── api.ts         # API client
-```
-
 ## 💡 Usage
 
 ### Basic Chat Interaction
@@ -329,5 +294,6 @@ Contributions are welcome! Please ensure:
 [Specify your license here]
 
 ---
+
 
 **Built with using LangGraph and React**
