@@ -291,9 +291,10 @@ Contributions are welcome! Please ensure:
 
 ## 📄 License
 
-[Specify your license here]
+MIT License
 
 ---
 
 
 **Built with using LangGraph and React**
+
